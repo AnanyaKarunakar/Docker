@@ -41,4 +41,5 @@ resource "aws_security_group" "allow_all_docker" {
     tags = {
         Name = "allow-all-docker"
     }
+  git clone https://github.com/AnanyaKarunakar/roboshop-docker.git
 }
